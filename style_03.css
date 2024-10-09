@@ -1,0 +1,77 @@
+*{
+  box-sizing: border-box;
+}
+.grid {
+  background-color: #ccc;
+  padding: 20px;
+  width: 600px;
+  display: grid;
+  height: 400px;
+  margin: 20px auto;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: 40px 1fr;
+  gap:20px;
+  position: relative;
+  
+ 
+}
+.grid div {
+  background-color: #6E5252;
+  
+  
+}
+.one:after{
+  content: "Element 1";
+  width: 100%;
+  height: 40px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.two:after {
+  content: "Element 2";
+  width: 100%;
+  height: 40px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.three:after {
+  content: "Element 3";
+  width: 100%;
+  height: 40px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.four:after {
+  content: "Element 4";
+  width: 100%;
+  height: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.five:after {
+  content: "Element 5";
+  width: 100%;
+  height: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.six:after {
+  content: "Element 6";
+  width: 100%;
+  height: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

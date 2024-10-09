@@ -1,0 +1,68 @@
+.container{
+  background-color: #ddd;
+  width: 100%;
+  height: 80%;
+  margin: 20px auto;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(4,auto);
+  grid-template-rows: repeat(4,auto);
+  gap: 10px;
+  border: 5px double #00191887;
+  
+}
+.one,.two,.three,.four,.five,.six,.seven,.eight,.nine,.ten{
+  border-bottom: 5px solid #FF9300;
+  padding: 10px;
+}
+.one{
+  grid-row: span 1;
+  grid-column: span 2;
+}
+.two{
+  grid-row: span 1;
+  grid-column: span 1;
+}
+.three{
+  grid-row: span 3;
+  grid-column: span 1;
+}
+.four{
+  grid-row: span 2;
+  grid-column: span 1;
+}
+.five {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+.six {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+.seven,.eight,.nine,.ten{
+  grid-row: span 1;
+  grid-column: span 1;
+}
+.one,.two,.four,.six,.seven,.nine,.ten{
+  background-color: white;
+  color: black;
+}
+.three,.eight,.five{
+  background-color: black;
+  color: white;
+}
+._p{
+  font-weight: bold;
+  padding: 10px;
+}
+h3{
+  padding: 10px;
+}
+h6{
+  padding: 10px;
+  color: #19000087;
+  
+}
+.three h6,.eight h6 ,.five h6{
+  color: white;
+}
